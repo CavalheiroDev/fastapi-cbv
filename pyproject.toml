@@ -1,0 +1,20 @@
+[project]
+name = "fastapi-cbv"
+description = "Class-based views for FastAPI."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Gabriel Cavalheiro", email = "ga3-cavalheiro@hotmail.com" }
+]
+dependencies = [
+    'fastapi>=0.110.0,<1.0'
+]
+dynamic = [
+    "version"
+]
+
+[project.urls]
+Homepage = "https://github.com/CavalheiroDev/fastapi-cbv"
+Documentation = "https://github.com/CavalheiroDev/fastapi-cbv?tab=readme-ov-file#fastapi-cbv"
+Repository = "https://github.com/CavalheiroDev/fastapi-cbv"
+
