@@ -7,3 +7,7 @@ class HttpMethods(str, Enum):
     PUT = "put"
     PATCH = "patch"
     DELETE = "delete"
+
+    @classmethod
+    def all_values(cls) -> set:
+        return {cls.value for cls in cls}
