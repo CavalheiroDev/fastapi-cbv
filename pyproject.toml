@@ -7,7 +7,8 @@ authors = [
     { name = "Gabriel Cavalheiro", email = "ga3-cavalheiro@hotmail.com" }
 ]
 dependencies = [
-    'fastapi>=0.110.0,<1.0'
+    'fastapi>=0.110.0,<1.0',
+    'pydantic>=2.6.3,<3.0',
 ]
 dynamic = [
     "version"
